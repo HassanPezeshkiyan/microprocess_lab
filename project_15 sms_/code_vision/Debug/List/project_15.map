@@ -1,0 +1,28 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+_base_y                                                                           0x0160       4
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+i                                                                                 R4,R5        2
+chr                                                                               R7           1
+_lcd_x                                                                            R6           1
+_lcd_y                                                                            R9           1
+_lcd_maxx                                                                         R8           1
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+main                                                                              0x0005C    251
+_lcd_write_nibble_G100                                                            0x00157     20
+_lcd_write_data                                                                   0x0016B     12
+lcd_gotoxy                                                                        0x00177     13
+lcd_clear                                                                         0x00184     10
+lcd_putchar                                                                       0x0018E     20
+lcd_init                                                                          0x001A2     43

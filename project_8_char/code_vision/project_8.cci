@@ -1,0 +1,9 @@
+VERSION:3 SOURCE_TIMESTAMP:528E7829
+NODE:I LEVEL:0 LINE:24 "C:\cvavr\inc\mega16.h"
+NODE:I LEVEL:0 LINE:26 "C:\cvavr\inc\alcd.h"
+NODE:T LEVEL:0 LINE:29 "byte"
+NODE:C LEVEL:0 LINE:30 "char0 -> FLASH"
+NODE:C LEVEL:0 LINE:31 "char1 -> FLASH"
+NODE:C LEVEL:0 LINE:32 "char2 -> FLASH"
+NODE:F LEVEL:0 LINE:33 "define_char(flash byte * p,byte char_code)"
+NODE:F LEVEL:0 LINE:38 "main(void)"
