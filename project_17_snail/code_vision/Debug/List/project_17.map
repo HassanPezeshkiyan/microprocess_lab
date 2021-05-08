@@ -21,12 +21,12 @@ _lcd_y                                                                          
 FLASH Allocation [words]
 Function                                                                          Address   Size
 ------------------------------------------------------------------------------------------------
-define_char                                                                       0x0007C     28
-main                                                                              0x00098    146
-_lcd_write_nibble_G100                                                            0x0012A     20
-_lcd_write_data                                                                   0x0013E     12
-lcd_write_byte                                                                    0x0014A      8
-lcd_gotoxy                                                                        0x00152     13
-lcd_clear                                                                         0x0015F     10
-lcd_putchar                                                                       0x00169     22
-lcd_init                                                                          0x0017F     44
+define_char                                                                       0x000C0     28
+main                                                                              0x000DC    257
+_lcd_write_nibble_G100                                                            0x001DD     20
+_lcd_write_data                                                                   0x001F1     12
+lcd_write_byte                                                                    0x001FD      8
+lcd_gotoxy                                                                        0x00205     13
+lcd_clear                                                                         0x00212     10
+lcd_putchar                                                                       0x0021C     22
+lcd_init                                                                          0x00232     44
